@@ -22,21 +22,7 @@ def local_css(file_name):
         st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
 
 
-local_css("D:/Subhashini/Datascience/pest/style.css")
-
-
-def drive_css(file_name):
-    with open(file_name) as f:
-        css_content = f.read()
-        print("CSS Content:")
-        print(css_content)
-        st.markdown(f"<bc>{css_content}</bc>", unsafe_allow_html=True)
-
-drive_css("D:\Subhashini\Datascience\pest\bc.css")
-
-# # local_css("D:\Subhashini\Datascience\pest\bc.css")\
-
-
+local_css("style.css")
 
 st.subheader("Hi, I am Khaja Mohideen :wave:")
 st.title("A PEST CONTROL SERVICE PROVIDER")
@@ -98,4 +84,3 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
-
