@@ -39,13 +39,17 @@ drive_css("D:\\Subhashini\\Datascience\\pest\\bc.css")
 
 st.subheader("Hi, I am Khaja Mohideen :wave:")
 st.title("A PEST CONTROL SERVICE PROVIDER")
-st.write("I'm Khaja Mohideen, the founder and owner of ERASE Pest Control Services. With a passion for pest management and a dedication to providing effective solutions, I've built a trusted name in the industry. With years of experience and a commitment to customer satisfaction, I lead a team of professionals who excel in tackling all your pest-related concerns. Our mission is to deliver top-notch pest control services with a focus on quality, safety, and eco-friendliness. We're here to help you enjoy a pest-free environment, whether it's in your home or business. Thank you for considering ERASE Pest Control Services for your pest control needs.
+st.write("""
+Im Khaja Mohideen, the founder and owner of ERASE Pest Control Services. 
+With a passion for pest management and a dedication to providing effective solutions, 
+I've built a trusted name in the industry. With years of experience and a commitment 
+to customer satisfaction, I lead a team of professionals who excel in tackling all 
+your pest-related concerns. Our mission is to deliver top-notch pest control services 
+with a focus on quality, safety, and eco-friendliness. We're here to help you enjoy a 
+pest-free environment, whether it's in your home or business. Thank you for considering 
+ERASE Pest Control Services for your pest control needs.
+""")
 
-
-
-
-
-")
 st.write("[Learn More >](https://pythonandvba.com)")
 
 #loading assets
