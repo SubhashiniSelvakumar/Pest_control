@@ -1,10 +1,6 @@
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
-from typing_extensions import Literal
-
-# Now you can use Literal as usual
-x: Literal[1, 2, 3] = 2
 from rich import print
 
 
