@@ -1,5 +1,4 @@
 requests
 streamlit
-tomlkit
 streamlit_lottie
 rich

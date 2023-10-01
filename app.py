@@ -22,7 +22,8 @@ def local_css(file_name):
         st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
 
 
-local_css("D:\\Subhashini\\Datascience\\pest\\style.css")
+local_css("D:/Subhashini/Datascience/pest/style.css")
+
 
 def drive_css(file_name):
     with open(file_name) as f:
@@ -31,16 +32,16 @@ def drive_css(file_name):
         print(css_content)
         st.markdown(f"<bc>{css_content}</bc>", unsafe_allow_html=True)
 
-drive_css("D:\\Subhashini\\Datascience\\pest\\bc.css")
+drive_css("D:\Subhashini\Datascience\pest\bc.css")
 
-# local_css("D:\Subhashini\Datascience\pest\bc.css")
+# # local_css("D:\Subhashini\Datascience\pest\bc.css")\
 
 
 
 st.subheader("Hi, I am Khaja Mohideen :wave:")
 st.title("A PEST CONTROL SERVICE PROVIDER")
 st.write("""
-I'm Khaja Mohideen, the founder and owner of ERASE Pest Control Services. 
+Im Khaja Mohideen, the founder and owner of ERASE Pest Control Services. 
 With a passion for pest management and a dedication to providing effective solutions, 
 I've built a trusted name in the industry. With years of experience and a commitment 
 to customer satisfaction, I lead a team of professionals who excel in tackling all 
@@ -49,7 +50,6 @@ with a focus on quality, safety, and eco-friendliness. We're here to help you en
 pest-free environment, whether it's in your home or business. Thank you for considering 
 ERASE Pest Control Services for your pest control needs.
 """)
-
 st.write("[Learn More >](https://pythonandvba.com)")
 
 #loading assets
