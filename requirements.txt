@@ -2,5 +2,4 @@ requests
 streamlit
 tomlkit
 streamlit_lottie
-st_lottie
 rich
